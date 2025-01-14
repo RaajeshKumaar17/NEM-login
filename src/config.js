@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const connectionString = "mongodb+srv://rock:raajesh3477@cluster0.wo8yk.mongodb.net/<yourDatabaseName>?retryWrites=true&w=majority";
+const connectionString = "mongodb+srv://<username>:<password>@cluster0.wo8yk.mongodb.net/<yourDatabaseName>?retryWrites=true&w=majority";
 
 // Connect to MongoDB Atlas
 mongoose.connect(connectionString)
